@@ -1,0 +1,209 @@
+/**
+ * Eric Meyer's Reset CSS v2.0
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+@font-face {
+font-family: pts-reg;
+/* SC edited*/
+/*src: url('fonts/pts-reg.ttf');*/
+src: url('pts-reg.ttf');
+}
+
+body {
+	line-height: 1;
+  /* SC edited*/
+  /*background: url(images/bg.jpg);*/
+  background: url(bg.jpg);
+	background-size: cover;
+	font-family: pts-reg !important;
+	color: #898989;
+	overflow-x: hidden;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#main{
+	width: 1141px;
+	margin: 0px auto;
+	max-width: 95%;
+}
+
+/* header right style */
+.navbar.navbar-default {
+    background: none;
+    border: none;
+}
+#header .navbar-brand {
+    margin-top: 40px;
+	padding-left: 0;
+}
+#header .col-xs-6.col-lg-9 {
+    padding-top: 5px;
+}
+.header-top-right {
+	float: right;
+}
+.header-top-right .text{
+    color: #4864b4;
+    font-family: arial;
+    font-size: 10px;
+    font-weight: bold;
+	line-height: 18px;
+	float: left;
+	margin-right: 15px;
+}
+.header-top-right a:hover{
+	opacity: 0.9;
+}
+.header-right {
+    float: right;
+    max-width: 100%;
+}
+
+/* login form style */
+.login-section .form-group, .login-section .btn {
+    margin-bottom: 2%;
+}
+.login-section {
+    margin-top: 13%;
+}
+.login-section .form-group input {
+    background: #c9c9c9;
+    border-radius: 0;
+    height: 25px;
+    width: 167px;
+	font-size: 13px;
+	border: 1px solid #c9c9c9;
+	line-height: 18px;
+	box-shadow: none;
+	 padding: 3px 5px;
+}
+.login-section .form-control::-moz-placeholder{
+	color: #fff !important;
+}
+.login-section .btn-default {
+    background: #75A345;
+    border-radius: 0;
+    color: #fff !important;
+    font-size: 13px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 10px;
+    width: 167px;
+	box-shadow: none;
+	border: none;
+}
+.login-section .btn-default:hover{
+	opacity: 0.9;
+}
+
+/* landing style */
+#content {
+    overflow: auto;
+	margin-bottom: 15%;
+}
+.landing-content {
+    margin-top: 190px;
+    text-align: center;
+}
+.landing-content .title{
+	color: #898989;
+}
+#content .landing-content .title p {
+    font-size: 36px;
+}
+#content .landing-content .title p span {
+    font-size: 70px;
+}
+
+/* button style */
+.orange-btn {
+    background: #fa9319;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 0;
+	display: block;
+}
+.orange-btn:hover{
+	text-decoration: none;
+	color: #fff;
+	opacity: 0.9
+}
+.green-btn {
+    background: #75A345;
+    color: #fff;
+    font-size: 24px;
+	font-weight: bold;
+    padding: 20px 0;
+	font-weight: bold;
+	display: block;
+}
+.green-btn:hover{
+	text-decoration: none;
+	color: #fff;
+	opacity: 0.9
+}
+.link-btn {
+	width: 340px;
+	margin: 10px auto 0;
+	max-width: 90%;
+}
+.landing-btn {
+    margin-top: 50px;
+}
+
+/* footer style */
+#footer {
+    border-top: 1px solid #e8e8e8;
+    margin-top: 50px;
+	color: #898989;
+    font-size: 12px;
+	 padding-top: 20px;
+}
+#footer a{
+	color: #898989;
+}
+#footer .col-xs-12.col-lg-4 {
+    text-align: right;
+	padding-bottom: 20px;
+}
+#footer .col-xs-12.col-sm-6.col-lg-8 {
+    padding-bottom: 20px;
+}
